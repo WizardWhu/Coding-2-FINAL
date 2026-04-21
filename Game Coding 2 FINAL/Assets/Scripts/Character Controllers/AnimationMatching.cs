@@ -2,15 +2,22 @@ using UnityEngine;
 
 public class AnimationMatching : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private ConfigurableJoint joint;
+    [SerializeField] private Transform animatorTransform;
+    [SerializeField] private bool flipped;
+    private void Awake()
     {
-        
+        joint = GetComponent<ConfigurableJoint>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (!flipped)
+        {
+            joint.targetRotation = animatorTransform.localRotation;
+        }
+        else
+        {
+            joint.targetRotation = Quaternion.Inverse(animatorTransform.localRotation);
+        }
     }
 }
