@@ -2591,8 +2591,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7056655b6093e54468541da4480f326d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
-  targetTransforms: []
-  distanceFromPlayer: 0
+  targetTransforms:
+  - {fileID: 857851487}
+  - {fileID: 536729703}
+  - {fileID: 265250788}
+  - {fileID: 1312481809}
+  - {fileID: 1131432093}
+  - {fileID: 303301037}
+  - {fileID: 1380850716}
+  - {fileID: 935777556}
+  - {fileID: 1966847240}
+  - {fileID: 406920289}
+  - {fileID: 945847124}
+  - {fileID: 1103129002}
+  - {fileID: 968135678}
+  - {fileID: 75316547}
+  - {fileID: 1843015546}
+  - {fileID: 79629895}
+  - {fileID: 49356233}
+  - {fileID: 2060957360}
+  - {fileID: 710011427}
+  - {fileID: 572381341}
+  - {fileID: 32056816}
+  - {fileID: 377953887}
+  - {fileID: 230437544}
+  - {fileID: 1422217564}
+  - {fileID: 598028386}
+  - {fileID: 377953887}
+  - {fileID: 319286744}
+  - {fileID: 1340092961}
+  - {fileID: 1339026357}
+  - {fileID: 667389738}
+  - {fileID: 725535772}
+  - {fileID: 1517359580}
+  - {fileID: 787848090}
+  - {fileID: 1738753933}
+  - {fileID: 798332420}
+  - {fileID: 885697639}
+  - {fileID: 1568327426}
+  distanceFromPlayer: 10
   buffering: 0
   rotationBuffer: 0
   cameraMoveSpeed: 0
