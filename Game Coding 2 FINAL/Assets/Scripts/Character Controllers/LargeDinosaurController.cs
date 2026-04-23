@@ -31,7 +31,7 @@ public class LargeDinosaurController : MonoBehaviour
     public static event Action<Vector2> movedMouse;
     private Vector2 moveInput;
 
-    private bool isGrounded = false;
+    public bool isGrounded = false;
     void Start()
     {
         hipsRB = GetComponent<Rigidbody>();
