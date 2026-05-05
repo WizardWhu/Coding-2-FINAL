@@ -12,8 +12,8 @@ TagManager:
   - Water
   - UI
   - GroundLayer
-  - 
-  - 
+  - DestroyedPieceS
+  - FadeObject
   - 
   - 
   - 
@@ -40,6 +40,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ui
+    uniqueID: 4140051643
     locked: 0
   m_RenderingLayers:
   - Default
