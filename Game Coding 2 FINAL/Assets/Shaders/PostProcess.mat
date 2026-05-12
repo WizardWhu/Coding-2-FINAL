@@ -45,11 +45,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 30
-    - _Contrast: 5
-    - _PixelCount: 400
-    - _PosterizeSteps: 20
-    - _Saturation: 2
+    - _Brightness: -10
+    - _Contrast: 2.34
+    - _PixelCount: 396.33
+    - _PosterizeSteps: 10
+    - _Saturation: 0.3
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

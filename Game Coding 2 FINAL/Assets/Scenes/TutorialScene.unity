@@ -336,6 +336,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -641,6 +645,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -813,7 +821,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e9e8ef3ccebed93468c6c29e5848f3f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1163,7 +1171,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1511,6 +1519,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -1783,6 +1795,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (4)
@@ -1856,6 +1872,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -2022,7 +2042,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2475,6 +2495,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -2646,7 +2670,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3018,7 +3042,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3202,6 +3226,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (12)
@@ -3792,6 +3820,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -3881,6 +3913,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -4168,6 +4204,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (5)
@@ -4241,6 +4281,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -4336,6 +4380,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall
@@ -4500,6 +4548,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -4834,6 +4886,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (9)
@@ -4907,6 +4963,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -6119,6 +6179,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -6518,7 +6582,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7156,6 +7220,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -7424,6 +7492,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -7590,7 +7662,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7799,6 +7871,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -7883,6 +7959,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -8148,6 +8228,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -8607,6 +8691,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -8768,7 +8856,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8938,6 +9026,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -9027,6 +9119,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (8)
@@ -9306,7 +9402,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9382,6 +9478,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -9776,6 +9876,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -10236,6 +10340,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -10534,7 +10642,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10703,6 +10811,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -10956,7 +11068,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11375,6 +11487,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -11593,6 +11709,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -12169,6 +12289,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -12259,6 +12383,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -12348,6 +12476,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -13776,6 +13908,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -13865,6 +14001,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (3)
@@ -13938,6 +14078,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -14098,7 +14242,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14306,6 +14450,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -14390,6 +14538,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -14825,7 +14977,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -15990,7 +16142,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16066,6 +16218,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -16752,6 +16908,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -17106,6 +17266,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -17196,6 +17360,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -17280,6 +17448,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -17370,6 +17542,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -17666,7 +17842,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17706,6 +17882,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (7)
@@ -17902,6 +18082,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -18138,7 +18322,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18365,6 +18549,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -18530,7 +18718,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18943,6 +19131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -19723,7 +19915,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20256,7 +20448,7 @@ MonoBehaviour:
   cameras:
   - {fileID: 165981209}
   - {fileID: 792839245}
-  timeBetweenFrames: 2
+  timeBetweenFrames: 1.5
 --- !u!1 &798332419
 GameObject:
   m_ObjectHideFlags: 0
@@ -20342,7 +20534,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21077,6 +21269,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -21970,7 +22166,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22427,6 +22623,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -22678,7 +22878,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22847,6 +23047,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -23214,7 +23418,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23607,7 +23811,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24104,7 +24308,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24288,6 +24492,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -25300,6 +25508,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -25753,7 +25965,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e9e8ef3ccebed93468c6c29e5848f3f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26046,6 +26258,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (2)
@@ -26119,6 +26335,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -26285,7 +26505,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -26596,6 +26816,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -26958,7 +27182,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27236,6 +27460,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -27504,6 +27732,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -27594,6 +27826,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -27683,6 +27919,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (13)
@@ -27880,6 +28120,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -28004,6 +28248,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -29203,6 +29451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -31737,7 +31989,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32202,7 +32454,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32448,7 +32700,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33251,6 +33503,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -33558,6 +33814,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -33869,7 +34129,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35269,7 +35529,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -35710,7 +35970,7 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 12.1
+  m_Intensity: 0.9
   m_Range: 34
   m_SpotAngle: 134.14717
   m_InnerSpotAngle: 74.89201
@@ -36767,6 +37027,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -37315,6 +37579,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (10)
@@ -37444,6 +37712,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -37706,7 +37978,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38254,6 +38526,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -38994,7 +39270,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39755,6 +40031,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -39972,6 +40252,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -40151,6 +40435,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -40826,6 +41114,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -41944,6 +42236,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -42466,6 +42762,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -42555,6 +42855,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -43014,6 +43318,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -43373,6 +43681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -43821,7 +44133,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -44804,7 +45116,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: e9e8ef3ccebed93468c6c29e5848f3f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -45145,6 +45457,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -46620,7 +46936,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -46853,7 +47169,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 3
-  m_Color: {r: 0.6830188, g: 0.6549659, b: 0.5915201, a: 1}
+  m_Color: {r: 0.5169811, g: 0.4899658, b: 0.42821646, a: 1}
   m_Intensity: 2
   m_Range: 20.1
   m_SpotAngle: 30
@@ -46916,6 +47232,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -47006,6 +47326,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -47810,6 +48134,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -48352,6 +48680,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (1)
@@ -48501,7 +48833,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48685,6 +49017,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (11)
@@ -48758,6 +49094,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -49390,6 +49730,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -50013,6 +50357,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
       objectReference: {fileID: 4053912977313917526, guid: ffe89b2179444d548b7dba8c48ffca0e, type: 3}
@@ -50481,6 +50829,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2279524089882853655, guid: 6db49aaf2f641384aa849de0c15ec5a1, type: 3}
       propertyPath: DestroyedPieces
       value: 
@@ -51508,7 +51860,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 89e8484085ef43542ae1e9122b4e58f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -52718,6 +53070,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 800535238}
     m_Modifications:
+    - target: {fileID: 2279524089882853655, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
+      propertyPath: pointValue
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}
       propertyPath: m_Name
       value: Wall (6)
