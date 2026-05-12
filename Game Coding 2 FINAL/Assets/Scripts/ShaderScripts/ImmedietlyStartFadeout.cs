@@ -20,5 +20,6 @@ public class ImmedietlyStartFadeout : MonoBehaviour
         }
         yield return new WaitForSeconds(fadeTime + 0.5f);
         Destroy(gameObject);
+        
     }
 }

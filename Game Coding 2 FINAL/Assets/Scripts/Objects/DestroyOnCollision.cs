@@ -15,10 +15,12 @@ public class DestroyOnCollision : MonoBehaviour
 
     private ScoreCounter scoreCounter;
     private FadeoutCast fadeOutCast;
+    private Material currentMat;
     private void Start()
     {
         scoreCounter = GameObject.FindAnyObjectByType<ScoreCounter>();
         fadeOutCast = GameObject.FindAnyObjectByType<FadeoutCast>();
+        currentMat = GetComponent<Renderer>().material;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -34,6 +36,7 @@ public class DestroyOnCollision : MonoBehaviour
 
             for(int i = 0; i < newRBs.Length; i++)
             {
+                newRBs[i].transform.GetComponent<Renderer>().material = currentMat;
                 newRBs[i].AddForce(collision.rigidbody.linearVelocity * ExplosionModifier, ForceMode.Impulse);
                 newRBs[i].AddExplosionForce(collision.rigidbody.linearVelocity.magnitude*ExplosionModifier, collision.collider.ClosestPoint(transform.position), collision.rigidbody.linearVelocity.magnitude*ExplosionModifier, ExplosionUpwardsModifier, ForceMode.Impulse);
             }

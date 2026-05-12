@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 9190188674441619520}
   - component: {fileID: 7068915202748896241}
   - component: {fileID: 2279524089882853655}
-  m_Layer: 0
+  - component: {fileID: 343935498233197678}
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,3 +131,15 @@ MonoBehaviour:
   ExplosionModifier: 2
   ExplosionUpwardsModifier: 0.2
   pointValue: 100
+--- !u!114 &343935498233197678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4053912977313917526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604dd3fb82be7a344a2ec84a156d0e86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FadeOut
