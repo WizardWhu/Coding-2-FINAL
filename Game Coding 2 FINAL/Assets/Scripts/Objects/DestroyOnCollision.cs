@@ -11,6 +11,8 @@ public class DestroyOnCollision : MonoBehaviour
 
     [Header("Points")]
     [SerializeField] private int pointValue = 0;
+    [SerializeField] private bool isHighValue = false;
+
     private bool destroyed = false;
 
     private ScoreCounter scoreCounter;
@@ -42,7 +44,7 @@ public class DestroyOnCollision : MonoBehaviour
             }
 
             scoreCounter.IncrementScore(pointValue);
-
+            SpawnPointsPopups.instance.PointsGained(pointValue, transform.position, isHighValue);
             Destroy(gameObject);
         }
     }
