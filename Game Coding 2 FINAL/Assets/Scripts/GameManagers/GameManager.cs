@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     private int currentSceneIndex;
-
+    [SerializeField] private int nextSceneIndex;
     public void OnPressR(InputAction.CallbackContext context)
     {
         if (context.performed) ReloadScene();
@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
+    public void ChangeScene()
+    {
+        SceneManager.LoadScene(nextSceneIndex);
     }
     public void ChangeScene(int sceneIndex)
     {

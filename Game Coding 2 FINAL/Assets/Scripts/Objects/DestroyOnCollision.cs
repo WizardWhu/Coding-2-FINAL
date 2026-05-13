@@ -20,7 +20,6 @@ public class DestroyOnCollision : MonoBehaviour
     private Material currentMat;
     private void Start()
     {
-        scoreCounter = GameObject.FindAnyObjectByType<ScoreCounter>();
         fadeOutCast = GameObject.FindAnyObjectByType<FadeoutCast>();
         currentMat = GetComponent<Renderer>().material;
     }
