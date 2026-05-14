@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ScoreCounter : MonoBehaviour
 {
@@ -7,8 +8,7 @@ public class ScoreCounter : MonoBehaviour
     [SerializeField] private int MaxScore;
 
     public static event Action<float> scoreUpdate;
-    public static event Action maxScoreHit;
-
+    public UnityEvent maxScoreHit;
     void Start()
     {
         currentScore = 0;
@@ -20,8 +20,7 @@ public class ScoreCounter : MonoBehaviour
         scoreUpdate?.Invoke(currentScore);
         if (currentScore >= MaxScore)
         {
-            maxScoreHit?.Invoke();
-            Debug.Log("YOU HIT THE MAX SCORE");
+            maxScoreHit.Invoke();
         }
     }
 }

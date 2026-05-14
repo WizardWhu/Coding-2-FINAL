@@ -1,12 +1,13 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
 {
     [SerializeField] private float LevelSeconds;
     private float currentSeconds;
     public static event Action<float> timerUpdate;
-    public static event Action timerIsUp;
+    public UnityEvent timerIsUp;
 
     private bool TimerUp = false;
 
@@ -19,14 +20,31 @@ public class Timer : MonoBehaviour
     private void Update()
     {
         if (TimerUp) return;
-           
+
         currentSeconds -= Time.deltaTime;
         timerUpdate?.Invoke(currentSeconds);
         if (currentSeconds <= 0)
         {
             TimerUp = true;
             timerIsUp?.Invoke();
-            Debug.Log("Time Is Up!");
         }
     }
+
+
+    public void StopTimer()
+    {
+        TimerUp = true;
+    }
+
+    public void StartTimer()
+    {
+        TimerUp = false;
+    }
+
+    public void RestartTimer()
+    {
+        TimerUp = false;
+        currentSeconds = LevelSeconds;
+    }
+    
 }

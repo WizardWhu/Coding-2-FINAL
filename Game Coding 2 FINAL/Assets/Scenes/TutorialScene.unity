@@ -50856,7 +50856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998943102}
   - component: {fileID: 1998943101}
-  - component: {fileID: 1998943100}
+  - component: {fileID: 1998943103}
   - component: {fileID: 1998943099}
   m_Layer: 0
   m_Name: GameManagers
@@ -50878,19 +50878,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   LevelSeconds: 400
---- !u!114 &1998943100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998943098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81025712b9e735340b34f95a1e02d80d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScoreCounter
-  MaxScore: 1000
+  timerIsUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1998943101}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: ReloadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1998943101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50903,7 +50905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08eed22a7c8d694da2ca5d1a5bd3776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  nextSceneIndex: 0
+  nextSceneIndex: 1
 --- !u!4 &1998943102
 Transform:
   m_ObjectHideFlags: 0
@@ -50919,6 +50921,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998943103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1998943098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81025712b9e735340b34f95a1e02d80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScoreCounter
+  MaxScore: 500
+  maxScoreHit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2000443453
 GameObject:
   m_ObjectHideFlags: 0
