@@ -18,6 +18,7 @@ public class AnimationMatching : MonoBehaviour
         else
         {
             joint.targetRotation = Quaternion.Inverse(animatorTransform.localRotation);
+
         }
     }
 }

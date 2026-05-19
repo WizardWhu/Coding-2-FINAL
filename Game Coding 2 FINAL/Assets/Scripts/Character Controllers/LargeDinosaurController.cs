@@ -24,7 +24,7 @@ public class LargeDinosaurController : MonoBehaviour
 
     public static event Action<bool> StartedMoving;
     public static event Action<Vector3> MoveDirection;
-    private bool isMoving;
+    private bool isMoving = false;
     //Used for the current direction the camera is facing
 
     private Vector2 lookInput;
@@ -39,19 +39,17 @@ public class LargeDinosaurController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         CheckGround();
         Move();
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(0);
-        }
     }
 
     private void Move()
     {
+        if (cameraTransform == null) return;
+        if(hipsRB == null) return;
+
         Vector3 nextMove = ((cameraTransform.forward * moveInput.y * forwardSpeed) + (cameraTransform.right * moveInput.x * forwardSpeed));
 
         if (!isMoving && moveInput.magnitude > 0.1)
@@ -101,6 +99,11 @@ public class LargeDinosaurController : MonoBehaviour
             out RaycastHit hit, groundCheckDistance, groundLayer);
     }
 
+
+    private void OnDestroy()
+    {
+        transform.GetComponent<PlayerInput>().enabled = false;
+    }
     private void OnDrawGizmosSelected()
     {
         Vector3 end = groundCheck.position + Vector3.down * groundCheckDistance;

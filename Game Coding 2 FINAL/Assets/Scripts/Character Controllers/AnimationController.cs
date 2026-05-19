@@ -16,9 +16,15 @@ public class AnimationController : MonoBehaviour
         LargeDinosaurController.StartedMoving += StartWalking;
         LargeDinosaurController.MoveDirection += UpdateRotation;
     }
+    private void OnDisable()
+    {
+        LargeDinosaurController.StartedMoving -= StartWalking;
+        LargeDinosaurController.MoveDirection -= UpdateRotation;
+    }
 
     void StartWalking(bool moving)
     {
+        if (animator == null) return;
         if (moving)
         {
             isMoving = true;
