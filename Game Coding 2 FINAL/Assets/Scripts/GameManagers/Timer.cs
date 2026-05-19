@@ -19,14 +19,18 @@ public class Timer : MonoBehaviour
 
     private void Update()
     {
-        if (TimerUp) return;
+        //if (TimerUp) return;
 
         currentSeconds -= Time.deltaTime;
         timerUpdate?.Invoke(currentSeconds);
         if (currentSeconds <= 0)
         {
+            Debug.Log("Active");
+
             TimerUp = true;
-            timerIsUp?.Invoke();
+            timerIsUp.Invoke();
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 

@@ -20,6 +20,8 @@ public class ScoreCounter : MonoBehaviour
         scoreUpdate?.Invoke(currentScore);
         if (currentScore >= MaxScore)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             maxScoreHit.Invoke();
         }
     }
