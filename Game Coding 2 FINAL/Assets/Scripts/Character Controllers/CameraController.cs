@@ -21,6 +21,11 @@ public class CameraController : MonoBehaviour
     {
         LargeDinosaurController.movedMouse += OnMouseMove;
     }
+    private void OnDisable()
+    {
+        LargeDinosaurController.movedMouse -= OnMouseMove;
+
+    }
 
     private void Start()
     {
