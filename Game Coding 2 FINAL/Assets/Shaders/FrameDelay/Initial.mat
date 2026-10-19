@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PostProcess
+  m_Name: Initial
   m_Shader: {fileID: -6465566751694194690, guid: 25f74f93aa0583047903fe898fabf97d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,6 +25,14 @@ Material:
     m_TexEnvs:
     - _DepthOfDino:
         m_Texture: {fileID: 8400000, guid: 46a8a06381053bc40b63cb0d691512aa, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthOfOther:
+        m_Texture: {fileID: 8400000, guid: 4beb002c26f90e34890e6aae956eed86, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DepthOfOther2:
+        m_Texture: {fileID: 8400000, guid: a6284187af8cde94480549fb1b971dd2, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -45,11 +53,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: -10
-    - _Contrast: 2.34
-    - _PixelCount: 396.33
-    - _PosterizeSteps: 10
-    - _Saturation: 0.3
+    - _Brightness: 30.7
+    - _Contrast: 3.08
+    - _ExtraFX: 1
+    - _PixelCount: 527.4
+    - _PosterizeSteps: 9
+    - _Saturation: 1.53
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

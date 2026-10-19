@@ -13,14 +13,17 @@ public class Timer : MonoBehaviour
 
     private void Start()
     {
-        TimerUp = false;
+        TimerUp = true;
         currentSeconds = LevelSeconds;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     private void Update()
     {
-        //if (TimerUp) return;
-
+        if (TimerUp) return;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         currentSeconds -= Time.deltaTime;
         timerUpdate?.Invoke(currentSeconds);
         if (currentSeconds <= 0)
@@ -42,6 +45,7 @@ public class Timer : MonoBehaviour
 
     public void StartTimer()
     {
+
         TimerUp = false;
     }
 

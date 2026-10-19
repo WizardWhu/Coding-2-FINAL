@@ -31,6 +31,10 @@ public class LargeDinosaurController : MonoBehaviour
     public static event Action<Vector2> movedMouse;
     private Vector2 moveInput;
 
+
+    private bool canMove = false;
+
+
     public bool isGrounded = false;
     void Start()
     {
@@ -42,7 +46,7 @@ public class LargeDinosaurController : MonoBehaviour
     void FixedUpdate()
     {
         CheckGround();
-        Move();
+        if(canMove) Move();
     }
 
     private void Move()
@@ -99,6 +103,10 @@ public class LargeDinosaurController : MonoBehaviour
             out RaycastHit hit, groundCheckDistance, groundLayer);
     }
 
+    public void PlayerCanMove(bool canMove)
+    {
+        this.canMove = canMove;
+    }
 
     private void OnDestroy()
     {

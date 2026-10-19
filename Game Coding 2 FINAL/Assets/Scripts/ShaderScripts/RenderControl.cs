@@ -1,13 +1,16 @@
-using NUnit.Framework;
 using UnityEngine;
 
 public class RenderControl : MonoBehaviour
 {
     [SerializeField] private Camera[] cameras;
     [SerializeField] private float timeBetweenFrames;
+    [SerializeField] private int numAlternations;
+
+    private int currentCameraIndex;
     private float nextFrame;
     void Awake()
     {
+        currentCameraIndex = 0;
         foreach (Camera cam in cameras)
         {
             cam.enabled = false;
@@ -21,10 +24,11 @@ public class RenderControl : MonoBehaviour
         if(Time.time >= nextFrame)
         {
             nextFrame = Time.time + timeBetweenFrames/24f;
-            foreach (Camera cam in cameras) 
+            for(int i = 0; i < 2; i++)
             {
-                cam.Render();
+                cameras[i + currentCameraIndex].Render();
             }
+            currentCameraIndex = (currentCameraIndex + 2) % cameras.Length;
         }
     }
 }

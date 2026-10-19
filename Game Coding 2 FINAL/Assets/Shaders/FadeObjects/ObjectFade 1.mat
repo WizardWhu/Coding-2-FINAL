@@ -60,7 +60,9 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 0
     - _Cull: 2
+    - _Destroyable: 1
     - _DisappearAmount: 0
+    - _DistanceFade: 290
     - _DstBlend: 1
     - _DstBlendAlpha: 1
     - _Metalllic: 0.1
@@ -79,6 +81,7 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _Color: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0.654902}
+    - _SecondaryColor: {r: 1, g: 0, b: 0, a: 1}
     - _Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

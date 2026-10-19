@@ -54,16 +54,18 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 1
     - _Cull: 2
+    - _Destroyable: 1
     - _DisappearAmount: 0
+    - _DistanceFade: 100
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Metalllic: 0.95
+    - _Metalllic: 0.57
     - _NormalStrength: 0
     - _Pixels: 20
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.35
+    - _Smoothness: 0.18
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
@@ -72,7 +74,8 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _SecondaryColor: {r: 0.3922214, g: 0.4715926, b: 0.735849, a: 1}
     - _Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

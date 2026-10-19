@@ -40,7 +40,7 @@ Material:
     - _Brightness: 0.6
     - _Fullscreen_DepthWrite: 0
     - _GradientAmount: 0.15
-    - _NoiseAmount: 0.061
+    - _NoiseAmount: 0.126
     - _Pixlize: 200
     - _Steps: 10
     m_Colors:
