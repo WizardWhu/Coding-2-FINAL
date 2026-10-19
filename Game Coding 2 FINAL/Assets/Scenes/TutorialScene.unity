@@ -39605,6 +39605,7 @@ GameObject:
   - component: {fileID: 1547237354}
   - component: {fileID: 1547237353}
   - component: {fileID: 1547237357}
+  - component: {fileID: 1547237358}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -39720,6 +39721,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1547237358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547237352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0d3537513cfff54da87ec75220038ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StartRound
+  playerController: {fileID: 857851494}
+  gameTimer: {fileID: 1998943099}
 --- !u!1 &1549771377 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4053912977313917526, guid: 772cc0385d6c4334096d1d45e6ba0e3a, type: 3}

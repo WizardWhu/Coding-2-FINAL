@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
 
     private bool TimerUp = false;
 
-    private void Start()
+    void Start()
     {
         TimerUp = true;
         currentSeconds = LevelSeconds;
@@ -45,7 +45,6 @@ public class Timer : MonoBehaviour
 
     public void StartTimer()
     {
-
         TimerUp = false;
     }
 
